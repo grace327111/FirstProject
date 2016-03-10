@@ -11,20 +11,17 @@ import React, {
   View
 } from 'react-native';
 
+var TestView = require('./TestView');
+
 class FirstProject extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Shake or press menu button for dev menu
-        </Text>
-      </View>
+        <TestView></TestView>
+      //<View style={styles.container}>
+      //  <Text style={styles.welcome}>
+      //    Welcome to React Native!Welcome to React Native!Welcome to React Native!Welcome to React Native!Welcome to React Native!
+      //  </Text>
+      //</View>
     );
   }
 }
